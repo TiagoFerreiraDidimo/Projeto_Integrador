@@ -1,0 +1,76 @@
+body{
+    /*cor de fundo*/
+    background: #28a4c9;
+    padding: 0;
+    margin: 0;
+}
+
+.form-acesso{
+    /*borda do formulario*/
+    border: 1px solid #c0c0c0;
+    padding: 20px;
+    /*permite o formulario fixar no centro*/
+    margin: auto;
+    /*para não ficar colado com o topo do navegador*/
+    margin-top: 5%;
+    /*cor de fundo do formulario*/
+    background: #204d74;
+    /*lardura e altura*/
+    width: 450px;
+    height: 300px;
+        
+}
+/*H1, locomoção e cor*/
+.h1-acesso{
+    margin-left: 20%;
+    color: #fff;
+}
+/*tabela*/
+.table-acesso{
+    width: 200px;
+    height: 100px;
+    margin-left: 20%;
+}
+
+tr.tr-form-acesso{
+     height: 40px;
+}
+
+/*email e senha texto*/
+.span-acesso{
+    color: #fff;
+    font-family: serif;
+    font-size: 17px;
+}
+/*deixar bordas redondas da caixa de texto*/
+.input-text-acesso{
+    border-radius: 5px;
+}
+/*esqueceu a senha*/
+.a-senha-acesso{
+    color: #fff;
+    float: right;
+    font-family: serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+/*esqueceu a senha com mouse sobre-pondo*/
+.a-senha-acesso:hover{
+    font-family: serif;
+    font-size: 12px;
+    text-decoration:underline;
+}
+/*Botão*/
+.a-submit-acesso{
+    background: #122b40;
+    color: #1b6d85;
+    border: 1px solid #151515;
+    
+    margin-left: 40%;
+    padding: 10px 20px 10px 20px;
+}
+.a-submit-acesso:hover{
+   color: #fff;
+    background: #122b40;
+    border: 1px solid #28a4c9;
+}
